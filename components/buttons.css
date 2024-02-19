@@ -1,0 +1,16 @@
+.btn {
+   width: 170px;
+   float: left;
+   margin: 20px 0px 20px 0px;
+}
+
+.btn a {
+   width: 100%;
+   float: left;
+   text-align: center;
+   padding: 15px 0px;
+   text-decoration: none;
+   transition: all 0.3s ease;
+   font-size: 1.2rem;
+   letter-spacing: 0.5px;
+}

@@ -1,0 +1,25 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+:root {
+   --background-coler: #d7b911;
+   --text-p: #000;
+   --btn: #00295a;
+   --btn-border: #004a80;
+   --nav: #320ca0;
+   --padding-top: 50px;
+   --padding-bottom: 100px;
+
+}
+

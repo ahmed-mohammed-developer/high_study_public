@@ -1,0 +1,32 @@
+:root {
+   --background-coler: #d7b911;
+   --text-p: #000;
+   --btn: #00295a;
+   --btn-border: #004a80;
+   --nav: #320ca0;
+}
+
+header {
+   background: var(--text-p);
+}
+
+.header-top {
+   padding-top: 50px;
+   padding-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-top .header-right .social-icon-top ul {
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+   list-style: none;
+}
+
+@media (max-width: 920px) {
+   .header-top {
+      display: none;
+   }
+}

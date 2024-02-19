@@ -1,0 +1,77 @@
+.call {
+   padding-top: var(--padding-top);
+   padding-bottom: var(--padding-bottom);
+   background: #111111;
+}
+
+.call .call-top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.call .call-top .call-icon {
+   padding-top: 20px;
+   display: flex;
+   
+}
+
+.call-icon a {
+   text-decoration: none;
+}
+.call .call-top .call-icon p {
+   color: #ffffff;
+   padding-left: 15px;
+}
+
+.call .input-call {
+   background: #ffffff;
+   padding: 10px 5px;
+   border-radius: 50px;
+   text-transform: uppercase;
+   text-align: center;
+   width: 400px;
+}
+
+.call .input-call .mail_bt {
+   font-size: 18px;
+   color: #F44336;
+   background-color: #fff;
+   padding: 2px 20px 2px 15px;
+   border-radius: 30px;
+   border: 0px;
+   height: 40px;
+}
+
+.call .input-call .subscribe_bt {
+   font-size: 18px;
+   color: #ffffff;
+   background-color: #d7b911;
+   padding: 10px 13px;
+   border-radius: 30px;
+   border: 0px;
+   text-transform: uppercase;
+}
+
+.call .input-call .subscribe_bt a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+@media screen and (max-width: 875px) {
+   .call .call-top {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 15px;
+   }
+   }
+
+   @media screen and (max-width: 430px) {
+      .call .input-call {
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+         width: auto;
+      }
+      }
